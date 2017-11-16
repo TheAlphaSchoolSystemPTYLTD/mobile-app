@@ -32,6 +32,7 @@ Authenticate parent login, and generates Parent User object with vaid Parent ses
     ```javascript
     {
 		"authtoken": "2B5EFD5C-E9F8-EF28-94FA66492E10A1C9",
+		"authentity": "parent",
 		"loggedin": "YES",
 		"par_code": "000055",
 		"stud_code": [
@@ -50,6 +51,7 @@ Authenticate parent login, and generates Parent User object with vaid Parent ses
     ```javascript
     {
 		"authtoken": "2B5EFD5C-E9F8-EF28-94FA66492E10A1C9",
+		"authentity": "parent",
 		"loggedin": "YES",
 		"par_code": "000055",
 		"stud_code": [
