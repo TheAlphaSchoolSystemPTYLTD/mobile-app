@@ -60,7 +60,7 @@ Authenticate parent login, and generates Parent User object with vaid Parent ses
 * **Sample Parameters:**
 
 	```javascript
-    {"studcode":"0009130"}
+    {"studcode":"20071"}
 	```
 
 * **Sample GET:** (With URL Encoded `token`)
