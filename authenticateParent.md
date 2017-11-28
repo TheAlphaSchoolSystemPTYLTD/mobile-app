@@ -28,7 +28,7 @@ Authenticate parent login, and generates Parent User object with vaid Parent ses
 
 * **Success Response:**
     
-    Split Family
+    Split Family `Status_Code: 200`
     ```javascript
     {
 		"authtoken": "2B5EFD5C-E9F8-EF28-94FA66492E10A1C9",
@@ -47,7 +47,7 @@ Authenticate parent login, and generates Parent User object with vaid Parent ses
 	}
 	```
 
-	Non-Split Family (`sfa_num` 0)
+	Non-Split Family (`sfa_num` 0) `Status_Code: 200`
     ```javascript
     {
 		"authtoken": "2B5EFD5C-E9F8-EF28-94FA66492E10A1C9",
@@ -68,14 +68,14 @@ Authenticate parent login, and generates Parent User object with vaid Parent ses
  
 * **Error Response:**
 
-    Required `[field_name]` not supplied
+    Required `[field_name]` not supplied `Status_Code: 401`
     ```javascript
     __invalid: {
       [field_name]: "field is required."
     }
     ```
     
-    `[username]` and `[password]` do not match a valid user
+    `[username]` and `[password]` do not match a valid user `Status_Code: 401`
     ```javascript
     __invalid: {
       username: "Incorrect username or password."
@@ -85,13 +85,13 @@ Authenticate parent login, and generates Parent User object with vaid Parent ses
 * **Sample Parameters:**
 
 	```javascript
-    { "username" : "000055" , "password" : "mysecurepassword" }
+    {"username":"000055","password":"mysecurepassword"}
 	```
 
 * **Sample GET:** (With URL Encoded `token`)
 
 	```HTML
-    http://api.tasscloud.com.au/tassweb/api/?method=authenticateParent&appcode=DEMOAPP&company=10&v=2&token=E6DhrZNz2oXAomF1CG8OIIzti2DNIZOVJBI1%2FKyH5bEKcgZy6UGNbjnvJAK4cYI7DJDUXQ7YreSFKTCwsJGp%2Bg%3D%3D
+    http://api.tasscloud.com.au/tassweb/api/?method=authenticateParent&appcode=DEMOAPP&company=10&v=2&token=ajxcMGXFJgzRrd0FJg54CzXDk2PbYXamyaqEIkC7CyQdgqU58z6OoqupTAYyvqACS6ZgJ3DnNdrGd9xaOMgoKQ%3D%3D
 	```
   
 * **Sample POST:**
@@ -102,6 +102,6 @@ Authenticate parent login, and generates Parent User object with vaid Parent ses
       <input type="hidden" name="appcode" value="DEMOAPP">
       <input type="hidden" name="company" value="10">
       <input type="hidden" name="v" value="2">
-      <textarea name="token">E6DhrZNz2oXAomF1CG8OIIzti2DNIZOVJBI1/KyH5bEKcgZy6UGNbjnvJAK4cYI7DJDUXQ7YreSFKTCwsJGp+g==</textarea>
+      <textarea name="token">ajxcMGXFJgzRrd0FJg54CzXDk2PbYXamyaqEIkC7CyQdgqU58z6OoqupTAYyvqACS6ZgJ3DnNdrGd9xaOMgoKQ==</textarea>
     </form>
 	```
