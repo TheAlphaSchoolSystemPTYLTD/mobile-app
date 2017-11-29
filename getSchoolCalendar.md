@@ -16,10 +16,10 @@ Authenticate parent login, and generates Parent User object with vaid Parent ses
  
    `studcode [string]`
 
+   `start_date [date dd/mm/yyyy]`
+
    **Optional:**
  
-   `start_date [date dd/mm/yyyy]` - Defaults to current date if not supplied
-
    `end_date [date dd/mm/yyyy]` - Defaults to `start_date` if not supplied
 
    **Conditional:**
