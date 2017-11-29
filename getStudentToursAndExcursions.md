@@ -1,6 +1,6 @@
 **getStudentToursAndExcursions**
 ----
-Authenticate parent login, and generates Parent User object with vaid Parent session.
+Retrieve Tours and Excursions basic information based specified on student.
 
 * **Version:**
 

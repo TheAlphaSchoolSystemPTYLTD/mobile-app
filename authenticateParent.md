@@ -1,6 +1,6 @@
 **authenticateParent**
 ----
-Authenticate parent login, and generates Parent User object with vaid Parent session.
+Authenticate parent login, and generates Parent User object with valid Parent session.
 
 * **Version:**
 

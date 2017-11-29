@@ -30,7 +30,7 @@ Mobile App API
 	The request URL for all other methods contains two additional parameters: `authtoken` and `authentity`.
 
 	```HTML
-	{protocol}://{domain}/tassweb/api/?method={method}&appcode={appcode}&company={companycode}&v=2&token={token}&authtoken={authtoken}&authtoken={authtoken}&authentity={authentity}
+	{protocol}://{domain}/tassweb/api/?method={method}&appcode={appcode}&company={companycode}&v=2&token={token}&authtoken={authtoken}&authentity={authentity}
 	````
 
 * **Protocol**
