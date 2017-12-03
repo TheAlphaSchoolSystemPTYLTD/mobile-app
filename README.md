@@ -4,6 +4,7 @@ Mobile App API
 **Methods**
 
   * authenticateParent
+  * getNotifications
   * getScholCalendar
   * getStudentToursAndExcursions
 
