@@ -6,6 +6,7 @@ Mobile App API
   * authenticateParent
   * getNotifications
   * getScholCalendar
+  * getStudentEDiary
   * getStudentToursAndExcursions
 
 **Request Construction**
