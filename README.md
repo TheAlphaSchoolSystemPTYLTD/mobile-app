@@ -8,6 +8,7 @@ Mobile App API
   * getScholCalendar
   * getStudentEDiary
   * getStudentToursAndExcursions
+  * setAcknowledgeNotification
 
 **Request Construction**
 
