@@ -28,24 +28,20 @@ Retrieve Tours and Excursions basic information based specified on student.
     
     `Status_Code: 200`
     ```javascript
-    {"data": [
-		{
-			"tour_when": "Wed 13/06/2018 at 9:00am (ends 11:00am)",
-			"tour_desc": "Mountain Bike Tour Term 2",
-			"deep_link": "{\"target\":\"tour\",\"studcode\":\"0009130\",\"tour_num\":\"52\",\"prod_menu\":\"N\"}",
-			"companyCode": 10,
-			"tour_status": "Invited",
-			"username": "000055"
-		},
-		{
-			"tour_when": "Thu 03/05/2012 at 9:00am (ends 3:00pm)",
-			"tour_desc": "Planetarium Excursion",
-			"deep_link": "{\"target\":\"tour\",\"studcode\":\"0009130\",\"tour_num\":\"8\",\"prod_menu\":\"N\"}",
-			"companyCode": 10,
-			"tour_status": "Accepted",
-			"username": "000055"
-		}]
-	}
+    {
+      "data": [
+        {
+          "tour_when": "Mon 01/08/2016 at 12:00pm (ends 3:30pm)",
+          "tour_desc": "Ice Skating Excursion",
+          "deep_link": "{\"target\":\"tours.tour\",\"studcode\":\"20359\",\"tour_num\":\"26\",\"prod_menu\":\"N\"}",
+          "companyCode": 10,
+          "tour_status": "Invited",
+          "username": 10246,
+          "start": "2016-08-01 12:00:00",
+          "end": "2016-08-01 15:30:00"
+        }
+      ]
+  	}
 	```
  
 * **Error Response:**
@@ -60,13 +56,13 @@ Retrieve Tours and Excursions basic information based specified on student.
 * **Sample Parameters:**
 
 	```javascript
-    {"studcode":"20071"}
+    {"studcode":"20359"}
 	```
 
 * **Sample GET:** (With URL Encoded `token`)
 
 	```HTML
-    http://api.tasscloud.com.au/tassweb/api/?method=getStudentToursAndExcursions&appcode=DEMOAPP&company=10&v=2&token=E6DhrZNz2oXAomF1CG8OIIzti2DNIZOVJBI1%2FKyH5bEKcgZy6UGNbjnvJAK4cYI7DJDUXQ7YreSFKTCwsJGp%2Bg%3D%3D&authtoken=2B5EFD5C-E9F8-EF28-94FA66492E10A1C9&authentity=parent
+    http://api.tasscloud.com.au/tassweb//api/?authtoken=19C60347-AFB3-63FB-27F939E222BF1F79&appcode=DEMOAPP&v=2&method=GetStudentToursAndExcursions&authentity=parent&token=AJdGg4%2FGqZeGHvIzVaL5uxk%2FmrULXRAGbJsyYUhZwR4%3D&company=10
 	```
   
 * **Sample POST:**
@@ -77,8 +73,8 @@ Retrieve Tours and Excursions basic information based specified on student.
       <input type="hidden" name="appcode" value="DEMOAPP">
       <input type="hidden" name="company" value="10">
       <input type="hidden" name="v" value="2">
-      <textarea name="token">E6DhrZNz2oXAomF1CG8OIIzti2DNIZOVJBI1/KyH5bEKcgZy6UGNbjnvJAK4cYI7DJDUXQ7YreSFKTCwsJGp+g==</textarea>
-      <input type="hidden" name="authtoken" value="2B5EFD5C-E9F8-EF28-94FA66492E10A1C9">
+      <textarea name="token">AJdGg4\/GqZeGHvIzVaL5uxk\/mrULXRAGbJsyYUhZwR4=</textarea>
+      <input type="hidden" name="authtoken" value="19C60347-AFB3-63FB-27F939E222BF1F79">
       <input type="hidden" name="authentity" value="parent">
     </form>
 	```
