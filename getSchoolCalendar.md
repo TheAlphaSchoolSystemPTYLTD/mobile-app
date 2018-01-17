@@ -22,6 +22,8 @@ Retrieve School Calendar feed based on specified student.
  
 	 `end_date [date dd/mm/yyyy]` - Defaults to `start_date` if not supplied
 
+	 `client_ip [string IP Address]` - May be required for attachments if proxying the initial request but not the file download
+
 	 **Conditional:**
 
 	 none
