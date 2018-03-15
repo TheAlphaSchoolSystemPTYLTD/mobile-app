@@ -30,12 +30,12 @@ Retrieve array of Students belonging to authenticated Parent.
 	```javascript
 	{ "students": [
 		{
-			"stud_code":"0009080"
-			,"stud_name":"Paul Angus"
+			"stud_code":"0009080",
+			"stud_name":"Paul Angus"
 		}
 		,{
-			"stud_code":"0009081"
-			,"stud_name":"Cristine Angus"
+			"stud_code":"0009081",
+			"stud_name":"Cristine Angus"
 		}
 		]
 	}

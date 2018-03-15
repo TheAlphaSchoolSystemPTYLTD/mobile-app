@@ -34,11 +34,20 @@ Authenticate parent login, and generates Parent User object with valid Parent se
 		"authtoken": "2B5EFD5C-E9F8-EF28-94FA66492E10A1C9",
 		"authentity": "parent",
 		"loggedin": "YES",
-		"par_code": "000055",
+		"par_code": "000011",
 		"stud_code": [
-			"0009946",
-			"0009130",
-			"0009134"
+			"0009081",
+			"0009080"
+		],
+		"students": [
+		{
+			"stud_code": "0009080",
+			"stud_name": "Paul Angus"
+		}, 
+		{
+			"stud_code": "0009081",
+			"stud_name": "Cristine Angus"
+		}
 		],
 		"wasloggedin": "NO",
 		"authexpiry": "{ts '2017-11-15 16:57:27'}",
@@ -53,11 +62,20 @@ Authenticate parent login, and generates Parent User object with valid Parent se
 		"authtoken": "2B5EFD5C-E9F8-EF28-94FA66492E10A1C9",
 		"authentity": "parent",
 		"loggedin": "YES",
-		"par_code": "000055",
+		"par_code": "000011",
 		"stud_code": [
-			"0009946",
-			"0009130",
-			"0009134"
+			"0009081",
+			"0009080"
+		],
+		"students": [
+		{
+			"stud_code": "0009080",
+			"stud_name": "Paul Angus"
+		}, 
+		{
+			"stud_code": "0009081",
+			"stud_name": "Cristine Angus"
+		}
 		],
 		"wasloggedin": "NO",
 		"authexpiry": "{ts '2017-11-15 16:57:27'}",
@@ -85,7 +103,7 @@ Authenticate parent login, and generates Parent User object with valid Parent se
 * **Sample Parameters:**
 
 	```javascript
-    {"username":"000055","password":"mysecurepassword"}
+    {"username":"000011","password":"mysecurepassword"}
 	```
 
 * **Sample GET:** (With URL Encoded `token`)
