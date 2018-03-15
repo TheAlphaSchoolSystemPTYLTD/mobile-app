@@ -1,4 +1,4 @@
-**getNotifications**
+**getStudents**
 ----
 Retrieve array of Students belonging to authenticated Parent.
 
