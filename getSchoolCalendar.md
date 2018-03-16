@@ -1,6 +1,6 @@
 **getSchoolCalendar**
 ----
-Retrieve School Calendar feed based on specified student.
+Retrieve School Calendar feed based on authenticated parent with one or many students.
 
 * **Version:**
 
@@ -14,15 +14,21 @@ Retrieve School Calendar feed based on specified student.
 
 	 **Required:**
  
-	 `studcode [string]`
-
 	 `start_date [date dd/mm/yyyy]`
 
 	 **Optional:**
  
+	 `studcode [string]` - student code belonging to the autenticated parent
+
 	 `end_date [date dd/mm/yyyy]` - Defaults to `start_date` if not supplied
 
 	 `client_ip [string IP Address]` - May be required for attachments if proxying the initial request but not the file download
+
+	 `includeparent [bool]` - Defaults to true.  Includes parent calendar events and daily notices
+
+	 `includepublic [bool]` - Defaults to true.  Includes public calendar events and daily notices
+
+	 `includedescriptors [bool]` - Defaults to false.  Includes week descriptor events
 
 	 **Conditional:**
 
@@ -40,8 +46,10 @@ Retrieve School Calendar feed based on specified student.
 				"file_name": "releasenotes_V47_4_025.pdf",
 				"file_url": "/tassdoc/getFile.cfm?i1=3297D198-E437-03D3-B3FEE8CC67A62B6E&i2=741772D7678647E87570B9B33059CAA1"
 			},
+			"cat_num": 29,
 			"url_text": "http://www",
 			"day_time_desc": "Wed 25 Oct 2017 at 9:00am (End 3:00pm)",
+			"cat_desc": "4 - Staff Messages",
 			"dayFlag": "bulletin",
 			"summary": "Car wash charity day",
 			"has_attachment": true,
@@ -53,7 +61,50 @@ Retrieve School Calendar feed based on specified student.
 			"end": "2017-10-25 15:00:00",
 			"id": 6862,
 			"url_link": "http://www",
+			"week_descriptor": false,
 			"all_day": true
+		},
+		{
+			"location": "",
+			"attachment": {},
+			"cat_num": 25,
+			"url_text": "",
+			"day_time_desc": "Thu 15 Mar 2018 at 9:00am (End 3:00pm)",
+			"cat_desc": "Week Description",
+			"dayFlag": "",
+			"summary": "test desc",
+			"has_attachment": false,
+			"description": "New Year Week",
+			"single_day": "YES",
+			"source": "school",
+			"title": "Yr 11 Week Desc",
+			"start": "2018-03-15 09:00:00",
+			"end": "2018-03-15 15:00:00",
+			"id": 7726,
+			"url_link": "",
+			"week_descriptor": true,
+			"all_day": false
+		}],
+		"notices": [{
+			"location": "",
+			"attachment": {},
+			"cat_num": 29,
+			"url_text": "",
+			"day_time_desc": "Fri 16 Mar 2018 at 9:00am (End 3:00pm)",
+			"cat_desc": "4 - Staff Messages",
+			"dayFlag": "",
+			"summary": "Parent Daily Notice",
+			"has_attachment": false,
+			"description": "Parent Daily Notice",
+			"single_day": "YES",
+			"source": "school",
+			"title": "PIA Daily notice",
+			"start": "2018-03-16 09:00:00",
+			"end": "2018-03-16 15:00:00",
+			"id": 7732,
+			"url_link": "",
+			"week_descriptor": false,
+			"all_day": false
 		}]
 	}
 	```
@@ -78,7 +129,7 @@ Retrieve School Calendar feed based on specified student.
 * **Sample Parameters:**
 
 	```javascript
-		{"end_date":"01/11/2017","start_date":"01/10/2017","studcode":"20133"}
+		{"end_date":"01/11/2017","start_date":"01/10/2017","studcode":"20133",includeparent=true,includepublic=false,includedescriptors=true}
 	```
 
 * **Sample GET:** (With URL Encoded `token`)
