@@ -129,7 +129,7 @@ Retrieve School Calendar feed based on authenticated parent with one or many stu
 * **Sample Parameters:**
 
 	```javascript
-		{"end_date":"01/11/2017","start_date":"01/10/2017","studcode":"20133",includeparent=true,includepublic=false,includedescriptors=true}
+		{"end_date":"01/11/2017","start_date":"01/10/2017","studcode":"20133","includeparent":true,"includepublic":false,"includedescriptors":true}
 	```
 
 * **Sample GET:** (With URL Encoded `token`)
