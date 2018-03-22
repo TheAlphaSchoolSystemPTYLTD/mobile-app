@@ -32,9 +32,13 @@ Retrieve Tours and Excursions basic information based specified on student.
       "data": [
         {
           "tour_when": "Mon 01/08/2016 at 12:00pm (ends 3:30pm)",
+          "attachment": {
+            "deep_link": "{\"target\":\"tours.attachment\",\"studcode\":\"20359\",\"tour_num\":\"26\",\"prod_menu\":\"N\"}",
+            "file_name": "IceSkatingExcursion.pdf"
+          },
           "tour_desc": "Ice Skating Excursion",
           "deep_link": "{\"target\":\"tours.tour\",\"studcode\":\"20359\",\"tour_num\":\"26\",\"prod_menu\":\"N\"}",
-          "attachment": "{\"target\":\"tours.attachment\",\"studcode\":\"20359\",\"tour_num\":\"26\",\"prod_menu\":\"N\"}",
+          "tour_num": 7,
           "companyCode": 10,
           "tour_status": "Invited",
           "username": 10246,
