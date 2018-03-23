@@ -4,13 +4,14 @@ Mobile App API
 **Methods**
 
   * authenticateParent
+  * getCalendarEvents
   * getDeepLinkURL
   * getNotifications
-  * getScholCalendar
+  * getSchoolCalendar
   * getStudentEDiary
   * getStudentToursAndExcursions
-  * setAcknowledgeNotification
   * getStudents
+  * setAcknowledgeNotification
 
 **Request Construction**
 
@@ -18,9 +19,9 @@ Mobile App API
 
 	All API methods are designed to honour the Parent Lounge permission structure.  
 
-	Any attempt to access a student not associated with the specified (split) parent will result in a `HTTP_STATUS: 401`.
+	Any attempt to access a student not associated with the specified (split) parent will result in a `HTTP_STATUS: 403`.
 
-	Any attempt to access a method associated to a program not enabled through the TASS.web Portal Security Permissions will result in a `HTTP_STATUS: 401`.
+	Any attempt to access a method associated to a program not enabled through the TASS.web Portal Security Permissions will result in a `HTTP_STATUS: 403`.
 
 **Request Construction**
 
