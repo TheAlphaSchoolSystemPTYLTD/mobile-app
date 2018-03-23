@@ -59,7 +59,7 @@ Set a Parent Notificaiton to Acknowledged
 * **Sample Parameters:**
 
 	```javascript
-    {"studcode":"0009130"."alert_num":123}
+    {"studcode":"0009130","alert_num":123}
 	```
 
 * **Sample GET:** (With URL Encoded `token`)
