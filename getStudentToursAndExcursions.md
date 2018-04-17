@@ -14,11 +14,11 @@ Retrieve Tours and Excursions basic information based specified on student.
 
    **Required:**
  
-   `studcode [string]`
+   `studcode [string]` - Student Code
    
    **Optional:**
  
-   none
+   `client_ip [string IP Address]` - May be required for attachments if proxying the initial request but not the file download
 
    **Conditional:**
 
