@@ -22,6 +22,8 @@ Retrieve Student EDiary feed based on specified student.
  
 	 `end_date [date dd/mm/yyyy]` - Defaults to `start_date` if not supplied
 
+	 `client_ip [string IP Address]` - May be required for attachments if proxying the initial request but not the file download
+
 	 **Conditional:**
 
 	 none
@@ -152,38 +154,25 @@ Retrieve Student EDiary feed based on specified student.
 					"all_day": "NO"
 				},
 				{
-					"location": "errth",
-					"attachment": {},
-					"url_text": "http://www.tassweb.com.au/",
-					"day_time_desc": "",
-					"summary": "Teacher: ",
-					"description": "Teacher: ",
-					"has_attachment": "NO",
-					"single_day": "NO",
-					"source": "tours",
-					"title": "The Big Bang Tour",
-					"start": "2017-10-03 01:00:00",
-					"end": "2017-12-01 14:00:00",
-					"id": 101,
-					"url_link": "http://www.tassweb.com.au/",
-					"all_day": "YES"
-				},
-				{
-					"location": "Hopper International",
-					"attachment": {},
+					"location": "AGC",
+					"attachment": {
+						"deep_link": "",
+						"file_name": ""
+					},
+					"deep_link": "{\"target\":\"tours.tour\",\"studcode\":\"20114\",\"tour_num\":\"7\",\"prod_menu\":\"Y\"}",
 					"url_text": "",
 					"day_time_desc": "",
 					"summary": "Teacher: Mr A Johnstone",
 					"description": "Teacher: Mr A Johnstone",
-					"has_attachment": "NO",
-					"single_day": "YES",
+					"has_attachment": false,
+					"single_day": true,
 					"source": "tours",
-					"title": "Tour of the 51 Islands",
-					"start": "2017-07-31 13:07:00",
-					"end": "2017-07-31 11:00:00",
-					"id": 122,
+					"title": "Australian Girls Choir Auditions",
+					"start": "2017-10-09 10:00:00",
+					"end": "2017-10-09 14:00:00",
+					"id": 7,
 					"url_link": "",
-					"all_day": "NO"
+					"all_day": false
 				},
 				{
 					"location": "",
