@@ -31,19 +31,20 @@ Retrieve Tours and Excursions basic information based specified on student.
     {
       "data": [
         {
-          "tour_when": "Mon 01/08/2016 at 12:00pm (ends 3:30pm)",
+          "tour_url": "http://riverlife.com.au/",
+          "tour_when": "Thu 07/12/2017 at 12:30pm (ends 3:30pm)",
           "attachment": {
-            "deep_link": "{\"target\":\"tours.attachment\",\"studcode\":\"20359\",\"tour_num\":\"26\",\"prod_menu\":\Y\"}",
-            "file_name": "IceSkatingExcursion.pdf"
-          },
-          "tour_desc": "Ice Skating Excursion",
-          "deep_link": "{\"target\":\"tours.tour\",\"studcode\":\"20359\",\"tour_num\":\"26\",\"prod_menu\":\"Y\"}",
-          "tour_num": 7,
-          "companyCode": 10,
-          "tour_status": "Invited",
-          "username": 10246,
-          "start": "2016-08-01 12:00:00",
-          "end": "2016-08-01 15:30:00"
+          "deep_link": "{\"target\":\"tours.attachment\",\"studcode\":\"20114\",\"tour_num\":\"35\",\"prod_menu\":\"Y\"}",
+          "file_name": "tours_attachment.pdf"
+        },
+        "tour_desc": "Rock Climbing Excursion",
+        "deep_link": "{\"target\":\"tours.tour\",\"studcode\":\"20114\",\"tour_num\":\"35\",\"prod_menu\":\"Y\"}",
+        "tour_num": 35,
+        "companyCode": 10,
+        "tour_status": "Invited",
+        "username": 10040,
+        "start": "2017-12-07 12:30:00",
+        "end": "2017-12-07 15:30:00"
         }
       ]
   	}
@@ -61,25 +62,25 @@ Retrieve Tours and Excursions basic information based specified on student.
 * **Sample Parameters:**
 
 	```javascript
-    {"studcode":"20359"}
+    {"studcode":"20114"}
 	```
 
 * **Sample GET:** (With URL Encoded `token`)
 
 	```HTML
-    http://api.tasscloud.com.au/tassweb//api/?authtoken=19C60347-AFB3-63FB-27F939E222BF1F79&appcode=DEMOAPP&v=2&method=GetStudentToursAndExcursions&authentity=parent&token=AJdGg4%2FGqZeGHvIzVaL5uxk%2FmrULXRAGbJsyYUhZwR4%3D&company=10
+    https://api.tassweb.com.au/tassweb/api/?authtoken=FABC7B09-CC98-41BA-6CECAE11621AE443&appcode=DEMOAPP&v=2&method=GetStudentToursAndExcursions&authentity=parent&token=%2FDcEGAVJXV%2FZ%2FF%2FxHGcsX4TD5Odppmxb5lv8ogscl%2FQ%3D&company=10
 	```
   
 * **Sample POST:**
 
 	```HTML
-    <form id="postForm" name="postForm" method="POST" action="http://api.tasscloud.com.au/tassweb/api/">
+    <form id="postForm" name="postForm" method="POST" action="https://api.tassweb.com.au/tassweb/api/">
       <input type="hidden" name="method" value="getStudentToursAndExcursions">
       <input type="hidden" name="appcode" value="DEMOAPP">
       <input type="hidden" name="company" value="10">
       <input type="hidden" name="v" value="2">
-      <textarea name="token">AJdGg4\/GqZeGHvIzVaL5uxk\/mrULXRAGbJsyYUhZwR4=</textarea>
-      <input type="hidden" name="authtoken" value="19C60347-AFB3-63FB-27F939E222BF1F79">
+      <textarea name="token">\/DcEGAVJXV\/Z\/F\/xHGcsX4TD5Odppmxb5lv8ogscl\/Q=</textarea>
+      <input type="hidden" name="authtoken" value="FABC7B09-CC98-41BA-6CECAE11621AE443">
       <input type="hidden" name="authentity" value="parent">
     </form>
 	```
