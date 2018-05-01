@@ -195,7 +195,7 @@ Retrieve Student EDiary feed based on specified student.
 			<input type="hidden" name="appcode" value="DEMOAPP">
 			<input type="hidden" name="company" value="10">
 			<input type="hidden" name="v" value="2">
-			<textarea name="token">\/DcEGAVJXV\/Z\/F\/xHGcsXxW9hwXwU5RiYW9N\/KXIHhNPwb1h5eaXHemaew0tUGTUMBd6M7y\/k86eOuCWpUl1oPc228A2dK8jtjcOff4Mg7k=</textarea>
+			<textarea name="token">/DcEGAVJXV/Z/F/xHGcsXxW9hwXwU5RiYW9N/KXIHhNPwb1h5eaXHemaew0tUGTUMBd6M7y/k86eOuCWpUl1oPc228A2dK8jtjcOff4Mg7k=</textarea>
 			<input type="hidden" name="authtoken" value="FABC7B09-CC98-41BA-6CECAE11621AE443">
 			<input type="hidden" name="authentity" value="parent">
 		</form>

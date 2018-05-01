@@ -79,7 +79,7 @@ Retrieve Tours and Excursions basic information based specified on student.
       <input type="hidden" name="appcode" value="DEMOAPP">
       <input type="hidden" name="company" value="10">
       <input type="hidden" name="v" value="2">
-      <textarea name="token">\/DcEGAVJXV\/Z\/F\/xHGcsX4TD5Odppmxb5lv8ogscl\/Q=</textarea>
+      <textarea name="token">/DcEGAVJXV/Z/F/xHGcsX4TD5Odppmxb5lv8ogscl/Q=</textarea>
       <input type="hidden" name="authtoken" value="FABC7B09-CC98-41BA-6CECAE11621AE443">
       <input type="hidden" name="authentity" value="parent">
     </form>
