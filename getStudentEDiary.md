@@ -35,89 +35,41 @@ Retrieve Student EDiary feed based on specified student.
 		{
 			"events": [
 				{
-					"location": "",
-					"attachment": {},
-					"url_text": "",
-					"day_time_desc": "Mon 01 Jan 2018 at 9:00am (End 3:00pm)",
-					"summary": "Test 34",
-					"has_attachment": "NO",
-					"description": "Test 34",
-					"single_day": "YES",
-					"source": "school",
-					"title": "Test 34",
-					"start": "2018-01-01 09:00:00",
-					"end": "2018-01-01 15:00:00",
-					"id": 7413,
-					"url_link": "",
-					"all_day": "NO"
-				},
-				{
-					"location": "A Block - Room 4",
-					"attachment": {},
-					"url_text": "",
-					"day_time_desc": "",
-					"summary": "Mr A Johnstone in A Block - Room 4",
-					"description": "Pastoral Care: Home Room 11.A with Mr A Johnstone",
-					"has_attachment": "NO",
-					"single_day": "YES",
-					"source": "timetable",
-					"start": "2017-12-01 08:30:00",
-					"end": "2017-12-01 09:29:00",
-					"title": "Home Room",
-					"id": "timetable_80_HOME9997_10_1_11|A_class",
-					"url_link": "",
-					"all_day": "NO"
-				},
-				{
-					"location": "B Block - Room 2",
-					"attachment": {},
-					"url_text": "",
-					"day_time_desc": "",
-					"summary": "Mr J Lochlear in B Block - Room 2",
-					"description": "Lesson 1: Study of Society & Environment 11.A with Mr J Lochlear",
-					"has_attachment": "NO",
-					"single_day": "YES",
-					"source": "timetable",
-					"start": "2017-12-01 09:30:00",
-					"end": "2017-12-01 10:29:00",
-					"title": "Study of Society & Environment",
-					"id": "timetable_80_0028_10_2_11|A_class",
-					"url_link": "",
-					"all_day": "NO"
-				},
-				{
-					"location": "A Block - Room 1",
-					"attachment": {},
-					"url_text": "",
-					"day_time_desc": "",
-					"summary": "Mr A Johnstone in A Block - Room 1",
-					"description": "Lesson 4: Modern History 11.A with Mr A Johnstone",
-					"has_attachment": "NO",
-					"single_day": "YES",
-					"source": "timetable",
-					"start": "2017-12-01 12:30:00",
-					"end": "2017-12-01 13:29:00",
-					"title": "Modern History",
-					"id": "timetable_80_0021_10_5_11|A_class",
-					"url_link": "",
-					"all_day": "NO"
-				},
-				{
 					"location": "Library",
 					"attachment": {},
 					"url_text": "",
-					"day_time_desc": "",
-					"summary": "Mr A Johnstone (Aust. Legal & General Studies)",
-					"description": "Mr A Johnstone (Aust. Legal & General Studies)",
-					"has_attachment": "NO",
-					"single_day": "YES",
-					"source": "pti",
-					"start": "2017-04-25 18:00:00",
-					"end": "2017-04-25 18:10:00",
-					"title": "Semester 1 2017",
-					"id": 88336,
+					"day_time_desc": "Wed 08 Feb 2017 at 12:00am (End 12:00am)",
+					"dayFlag": "",
+					"summary": "Cupcakes will be selling for $3 outside the library to raise money for the RSPCA.",
+					"has_attachment": false,
+					"description": "Cupcakes will be selling for $3 outside the library to raise money for the RSPCA.",
+					"single_day": true,
+					"source": "school",
+					"title": "RSPCA Cupcake Day",
+					"start": "2017-02-08 00:00:00",
+					"end": "2017-02-08 00:00:00",
+					"id": 6801,
 					"url_link": "",
-					"all_day": "NO"
+					"all_day": true,
+					"feed": "School Calendar"
+				},
+				{		
+					"location": "School Bus",
+					"attachment": {},
+					"url_text": "",
+					"day_time_desc": "",
+					"summary": "Mr A Johnstone in School Bus",
+					"description": "Lesson 7: Science 11.A with Mr A Johnstone",
+					"has_attachment": false,
+					"single_day": true,
+					"source": "timetable",
+					"start": "2017-12-01 14:30:00",
+					"end": "2017-12-01 15:29:00",
+					"title": "Science",
+					"id": "timetable_78_7650_5_7_11|A_class",
+					"url_link": "",
+					"all_day": false,
+					"feed": "Timetable"
 				},
 				{
 					"location": "Library",
@@ -126,38 +78,22 @@ Retrieve Student EDiary feed based on specified student.
 					"day_time_desc": "",
 					"summary": "Mr A Johnstone (English)",
 					"description": "Mr A Johnstone (English)",
-					"has_attachment": "NO",
-					"single_day": "YES",
+					"has_attachment": false,
+					"single_day": true,
 					"source": "pti",
-					"start": "2017-04-25 18:10:00",
-					"end": "2017-04-25 18:20:00",
-					"title": "Semester 1 2017",
-					"id": 88337,
+					"start": "2017-09-14 15:30:00",
+					"end": "2017-09-14 15:40:00",
+					"title": "2017 Term 3 Parent Teacher Interviews",
+					"id": 7108,
 					"url_link": "",
-					"all_day": "NO"
-				},
-				{
-					"location": "Library",
-					"attachment": {},
-					"url_text": "",
-					"day_time_desc": "",
-					"summary": "Mr A Johnstone (Learning Enrichment)",
-					"description": "Mr A Johnstone (Learning Enrichment)",
-					"has_attachment": "NO",
-					"single_day": "YES",
-					"source": "pti",
-					"start": "2017-04-25 18:40:00",
-					"end": "2017-04-25 18:50:00",
-					"title": "Semester 1 2017",
-					"id": 88340,
-					"url_link": "",
-					"all_day": "NO"
+					"all_day": false,
+					"feed": "PT Interviews"
 				},
 				{
 					"location": "AGC",
 					"attachment": {
-						"deep_link": "",
-						"file_name": ""
+					"deep_link": "",
+					"file_name": ""
 					},
 					"deep_link": "{\"target\":\"tours.tour\",\"studcode\":\"20114\",\"tour_num\":\"7\",\"prod_menu\":\"Y\"}",
 					"url_text": "",
@@ -172,86 +108,52 @@ Retrieve Student EDiary feed based on specified student.
 					"end": "2017-10-09 14:00:00",
 					"id": 7,
 					"url_link": "",
-					"all_day": false
+					"all_day": false,
+					"feed": "Tours & Excursions"
 				},
 				{
-					"location": "",
+					"location": "Library",
 					"attachment": {},
 					"url_text": "",
 					"day_time_desc": "",
-					"stud_code": "0009130",
-					"summary": "Transport To:  \nTransport From: ",
-					"description": "Transport To:  \nTransport From: ",
-					"has_attachment": "NO",
-					"single_day": "YES",
-					"source": "leave",
-					"title": "Approved Leave - Full Weekend Leave",
-					"start": "2017-02-25 14:00:00",
-					"end": "2017-02-25 17:00:00",
-					"id": 426,
+					"summary": "Pastoral Care Entry on Mon 06 Feb 2017",
+					"description": "Pastoral Care Entry on Mon 06 Feb 2017\r\nClass/Curriculum",
+					"has_attachment": false,
+					"single_day": true,
+					"source": "pastoral",
+					"title": "Homework Support Group",
+					"start": "2017-02-08 07:00:00",
+					"end": "2017-02-08 08:30:00",
+					"id": 6723,
 					"url_link": "",
-					"all_day": "NO"
+					"all_day": false,
+					"feed": "Pastoral Care"
 				},
 				{
 					"location": "",
 					"attachment": {},
-					"deep_link": "{\"target\":\"curricularactivity\",\"studcode\":\"0009130\",\"activity_assign_id\":\"4434\",\"prod_menu\":\"N\"}",
+					"deep_link": "{\"target\":\"curricular.activity\",\"studcode\":\"20114\",\"activity_assign_id\":\"22015\",\"prod_menu\":\"N\"}",
 					"url_text": "Go to this activity.",
 					"day_time_desc": "",
-					"summary": "English 11 A\nActivity Available From: Wed 23 Aug 2017 at 10:31 AM",
-					"description": "English 11 A\nActivity Available From: Wed 23 Aug 2017 at 10:31 AM",
-					"has_attachment": "NO",
-					"single_day": "YES",
+					"summary": "English 11 A\nActivity Due: Wed 08 Feb 2017 at 02:30 PM",
+					"description": "English 11 A\nActivity Due: Wed 08 Feb 2017 at 02:30 PM",
+					"has_attachment": false,
+					"single_day": true,
 					"source": "activity",
-					"start": "2017-08-23 10:31:00",
+					"start": "2017-02-08 14:30:00",
 					"end": "",
-					"title": "Oral on Captain Corelli's Manodlin",
-					"id": "activity-0009130-7D0A8E57-D4F6-ADA4-E76A882402602C5E-4434",
+					"title": "Reading Task - Week 1",
+					"id": "activity-20114-0EB973AC-F703-C00F-CE1E1E515846BA1B-22015",
 					"url_link": "",
-					"all_day": "NO"
-				},
-				{
-					"location": "",
-					"attachment": {},
-					"deep_link": "{\"target\":\"curricularactivity\",\"studcode\":\"0009130\",\"activity_assign_id\":\"4443\",\"prod_menu\":\"N\"}",
-					"url_text": "Go to this activity.",
-					"day_time_desc": "",
-					"summary": "Modern History 11 A\nActivity Available From: Sat 01 Jul 2017 at 11:14 AM",
-					"description": "Modern History 11 A\nActivity Available From: Sat 01 Jul 2017 at 11:14 AM",
-					"has_attachment": "NO",
-					"single_day": "YES",
-					"source": "activity",
-					"start": "2017-07-01 11:14:00",
-					"end": "",
-					"title": "Building the Great Wall Mark 2",
-					"id": "activity-0009130-4E12DB9E-E2AD-CBA9-45098D5A848AEC14-4443",
-					"url_link": "",
-					"all_day": "NO"
-				},
-				{
-					"location": "",
-					"attachment": {},
-					"deep_link": "{\"target\":\"curricularactivity\",\"studcode\":\"0009130\",\"activity_assign_id\":\"4446\",\"prod_menu\":\"N\"}",
-					"url_text": "Go to this activity.",
-					"day_time_desc": "",
-					"summary": "Modern History 11 A\nActivity Available From: Fri 01 Sep 2017 at 03:17 PM",
-					"description": "Modern History 11 A\nActivity Available From: Fri 01 Sep 2017 at 03:17 PM",
-					"has_attachment": "NO",
-					"single_day": "YES",
-					"source": "activity",
-					"start": "2017-09-01 15:17:00",
-					"end": "",
-					"title": "China -",
-					"id": "activity-0009130-56BDCCE2-CAD1-1289-5068AEC6098F04E3-4446",
-					"url_link": "",
-					"all_day": "NO"
+					"all_day": false,
+					"feed": "Curricular Activities"
 				}
 			],
 			"token": {
-				"timestamp": "{ts '2017-11-30 09:45:24'}",
-				"end_date": "01/01/2018",
-				"start_date": "01/12/2017",
-				"studcode": "0009130"
+				"timestamp": "{ts '2018-05-01 10:33:40'}",
+				"end_date": "01/12/2017",
+				"start_date": "01/01/2017",
+				"studcode": 20114
 			}
 		}
 	```
@@ -276,25 +178,25 @@ Retrieve Student EDiary feed based on specified student.
 * **Sample Parameters:**
 
 	```javascript
-		{"studcode":"20071","start_date":"01/01/2017","end_date":"01/12/2017"}
+		{"studcode":"20114","start_date":"01/01/2017","end_date":"01/12/2017"}
 	```
 
 * **Sample GET:** (With URL Encoded `token`)
 
 	```HTML
-		http://api.tasscloud.com.au/tassweb/api/?method=getStudentEDiary&appcode=DEMOAPP&company=10&v=2&token=E6DhrZNz2oXAomF1CG8OIIzti2DNIZOVJBI1%2FKyH5bEKcgZy6UGNbjnvJAK4cYI7DJDUXQ7YreSFKTCwsJGp%2Bg%3D%3D&authtoken=2B5EFD5C-E9F8-EF28-94FA66492E10A1C9&authentity=parent
+		https://api.tassweb.com.au/tassweb//api/?authtoken=FABC7B09-CC98-41BA-6CECAE11621AE443&appcode=DEMOAPP&v=2&method=GetStudentEDiary&authentity=parent&token=%2FDcEGAVJXV%2FZ%2FF%2FxHGcsXxW9hwXwU5RiYW9N%2FKXIHhNPwb1h5eaXHemaew0tUGTUMBd6M7y%2Fk86eOuCWpUl1oPc228A2dK8jtjcOff4Mg7k%3D&company=10
 	```
 	
 * **Sample POST:**
 
 	```HTML
-		<form id="postForm" name="postForm" method="POST" action="http://api.tasscloud.com.au/tassweb/api/">
+		<form id="postForm" name="postForm" method="POST" action="https://api.tassweb.com.au/tassweb/api/">
 			<input type="hidden" name="method" value="getStudentEDiary">
 			<input type="hidden" name="appcode" value="DEMOAPP">
 			<input type="hidden" name="company" value="10">
 			<input type="hidden" name="v" value="2">
-			<textarea name="token">E6DhrZNz2oXAomF1CG8OIIzti2DNIZOVJBI1/KyH5bEKcgZy6UGNbjnvJAK4cYI7DJDUXQ7YreSFKTCwsJGp+g==</textarea>
-			<input type="hidden" name="authtoken" value="2B5EFD5C-E9F8-EF28-94FA66492E10A1C9">
+			<textarea name="token">\/DcEGAVJXV\/Z\/F\/xHGcsXxW9hwXwU5RiYW9N\/KXIHhNPwb1h5eaXHemaew0tUGTUMBd6M7y\/k86eOuCWpUl1oPc228A2dK8jtjcOff4Mg7k=</textarea>
+			<input type="hidden" name="authtoken" value="FABC7B09-CC98-41BA-6CECAE11621AE443">
 			<input type="hidden" name="authentity" value="parent">
 		</form>
 	```
