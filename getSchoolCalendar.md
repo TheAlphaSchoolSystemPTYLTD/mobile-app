@@ -34,20 +34,29 @@ Retrieve School Calendar feed based on specified student.
 		```javascript
 		{"events": [{
 			"location": "",
-			"attachment": {},
-			"url_text": "",
-			"day_time_desc": "Sun 22 Jan 2017 at 9:00am (End 3:00pm)",
-			"summary": "Rippers Day Holiday",
-			"has_attachment": "NO",
-			"description": "Rippers Day Holiday",
-			"single_day": "YES",
+			"attachment": {
+				"file_size": 22556,
+				"deep_link": "{\"target\":\"calendar.attachment\",\"event_id\":\"6862\"}",
+				"file_name": "releasenotes_V47_4_025.pdf"
+			},
+			"cat_num": 11,
+			"url_text": "http://www",
+			"day_time_desc": "Wed 25 Oct 2017 at 9:00am (End 3:00pm)",
+			"cat_desc": "Academic",
+			"dayFlag": "",
+			"summary": "Car wash charity day",
+			"has_attachment": true,
+			"description": "Car wash charity day",
+			"single_day": true,
 			"source": "school",
-			"title": "Rippers Day",
-			"start": "2017-01-22 09:00:00",
-			"end": "2017-01-22 15:00:00",
-			"id": 7416,
-			"url_link": "",
-			"all_day": "NO"
+			"title": "Car Wash - Charity day",
+			"start": "2017-10-25 09:00:00",
+			"end": "2017-10-25 15:00:00",
+			"id": 6862,
+			"url_link": "http://www",
+			"week_descriptor": false,
+			"feed": "School Calendar",
+			"all_day": false
 		}]
 	}
 	```
@@ -72,25 +81,25 @@ Retrieve School Calendar feed based on specified student.
 * **Sample Parameters:**
 
 	```javascript
-		{"studcode":"20071","start_date":"01/01/2017","end_date":"01/12/2017"}
+		{"studcode":"20114","start_date":"01/01/2017","end_date":"01/12/2017"}
 	```
 
 * **Sample GET:** (With URL Encoded `token`)
 
 	```HTML
-		http://api.tasscloud.com.au/tassweb/api/?method=getSchoolCalendar&appcode=DEMOAPP&company=10&v=2&token=E6DhrZNz2oXAomF1CG8OIIzti2DNIZOVJBI1%2FKyH5bEKcgZy6UGNbjnvJAK4cYI7DJDUXQ7YreSFKTCwsJGp%2Bg%3D%3D&authtoken=2B5EFD5C-E9F8-EF28-94FA66492E10A1C9&authentity=parent
+		https://api.tassweb.com.au/tassweb/api/?authtoken=FABC7B09-CC98-41BA-6CECAE11621AE443&appcode=DEMOAPP&v=2&method=GetSchoolCalendar&authentity=parent&token=%2FDcEGAVJXV%2FZ%2FF%2FxHGcsXxW9hwXwU5RiYW9N%2FKXIHhNPwb1h5eaXHemaew0tUGTUMBd6M7y%2Fk86eOuCWpUl1oPc228A2dK8jtjcOff4Mg7k%3D&company=10
 	```
 	
 * **Sample POST:**
 
 	```HTML
-		<form id="postForm" name="postForm" method="POST" action="http://api.tasscloud.com.au/tassweb/api/">
+		<form id="postForm" name="postForm" method="POST" action="https://api.tassweb.com.au/tassweb/api/">
 			<input type="hidden" name="method" value="getSchoolCalendar">
 			<input type="hidden" name="appcode" value="DEMOAPP">
 			<input type="hidden" name="company" value="10">
 			<input type="hidden" name="v" value="2">
-			<textarea name="token">E6DhrZNz2oXAomF1CG8OIIzti2DNIZOVJBI1/KyH5bEKcgZy6UGNbjnvJAK4cYI7DJDUXQ7YreSFKTCwsJGp+g==</textarea>
-			<input type="hidden" name="authtoken" value="2B5EFD5C-E9F8-EF28-94FA66492E10A1C9">
+			<textarea name="token">\/DcEGAVJXV\/Z\/F\/xHGcsXxW9hwXwU5RiYW9N\/KXIHhNPwb1h5eaXHemaew0tUGTUMBd6M7y\/k86eOuCWpUl1oPc228A2dK8jtjcOff4Mg7k=</textarea>
+			<input type="hidden" name="authtoken" value="FABC7B09-CC98-41BA-6CECAE11621AE443">
 			<input type="hidden" name="authentity" value="parent">
 		</form>
 	```
