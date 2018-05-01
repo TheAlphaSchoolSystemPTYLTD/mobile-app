@@ -42,15 +42,14 @@ Retrieve School Calendar feed based on authenticated parent with one or many stu
 			"location": "",
 			"attachment": {
 				"file_size": 22556,
-				"deep_link": "{\"target\":\"calendar.attachment\",\"studcode\":\"20133\",\"event_id\":\"6862\"}",
-				"file_name": "releasenotes_V47_4_025.pdf",
-				"file_url": "/tassdoc/getFile.cfm?i1=3297D198-E437-03D3-B3FEE8CC67A62B6E&i2=741772D7678647E87570B9B33059CAA1"
+				"deep_link": "{\"target\":\"calendar.attachment\",\"event_id\":\"6862\"}",
+				"file_name": "releasenotes_V47_4_025.pdf"
 			},
-			"cat_num": 29,
+			"cat_num": 11,
 			"url_text": "http://www",
 			"day_time_desc": "Wed 25 Oct 2017 at 9:00am (End 3:00pm)",
-			"cat_desc": "4 - Staff Messages",
-			"dayFlag": "bulletin",
+			"cat_desc": "Academic",
+			"dayFlag": "",
 			"summary": "Car wash charity day",
 			"has_attachment": true,
 			"description": "Car wash charity day",
@@ -62,48 +61,7 @@ Retrieve School Calendar feed based on authenticated parent with one or many stu
 			"id": 6862,
 			"url_link": "http://www",
 			"week_descriptor": false,
-			"all_day": true
-		},
-		{
-			"location": "",
-			"attachment": {},
-			"cat_num": 25,
-			"url_text": "",
-			"day_time_desc": "Thu 15 Mar 2018 at 9:00am (End 3:00pm)",
-			"cat_desc": "Week Description",
-			"dayFlag": "",
-			"summary": "test desc",
-			"has_attachment": false,
-			"description": "New Year Week",
-			"single_day": "YES",
-			"source": "school",
-			"title": "Yr 11 Week Desc",
-			"start": "2018-03-15 09:00:00",
-			"end": "2018-03-15 15:00:00",
-			"id": 7726,
-			"url_link": "",
-			"week_descriptor": true,
-			"all_day": false
-		}],
-		"notices": [{
-			"location": "",
-			"attachment": {},
-			"cat_num": 29,
-			"url_text": "",
-			"day_time_desc": "Fri 16 Mar 2018 at 9:00am (End 3:00pm)",
-			"cat_desc": "4 - Staff Messages",
-			"dayFlag": "",
-			"summary": "Parent Daily Notice",
-			"has_attachment": false,
-			"description": "Parent Daily Notice",
-			"single_day": "YES",
-			"source": "school",
-			"title": "PIA Daily notice",
-			"start": "2018-03-16 09:00:00",
-			"end": "2018-03-16 15:00:00",
-			"id": 7732,
-			"url_link": "",
-			"week_descriptor": false,
+			"feed": "School Calendar",
 			"all_day": false
 		}]
 	}
@@ -129,25 +87,25 @@ Retrieve School Calendar feed based on authenticated parent with one or many stu
 * **Sample Parameters:**
 
 	```javascript
-		{"end_date":"01/11/2017","start_date":"01/10/2017","studcode":"20133","includeparent":true,"includepublic":false,"includedescriptors":true}
+		{"studcode":"20114","start_date":"01/01/2017","end_date":"01/12/2017"}
 	```
 
 * **Sample GET:** (With URL Encoded `token`)
 
 	```HTML
-		http://api.tasscloud.com.au/tassweb/api/?authtoken=1C5F8D31-C084-DC2D-7480FBEBA048F334&appcode=DEMOAPP&v=2&method=GetSchoolCalendar&authentity=parent&token=587C1hOG7xIHks3Hpy3%2BFijBb4plHJ5lYG0E563YG4Q7HIEf2Ex%2BuKuzWYR2Ali32XzAcsc5AFSuK5QkRlO1My%2Fy8E%2B1cEVT6UOhKeFwfAU%3D&company=10
+		https://api.tassweb.com.au/tassweb/api/?authtoken=FABC7B09-CC98-41BA-6CECAE11621AE443&appcode=DEMOAPP&v=2&method=GetSchoolCalendar&authentity=parent&token=%2FDcEGAVJXV%2FZ%2FF%2FxHGcsXxW9hwXwU5RiYW9N%2FKXIHhNPwb1h5eaXHemaew0tUGTUMBd6M7y%2Fk86eOuCWpUl1oPc228A2dK8jtjcOff4Mg7k%3D&company=10
 	```
 	
 * **Sample POST:**
 
 	```HTML
-		<form id="postForm" name="postForm" method="POST" action="http://api.tasscloud.com.au/tassweb/api/">
+		<form id="postForm" name="postForm" method="POST" action="https://api.tassweb.com.au/tassweb/api/">
 			<input type="hidden" name="method" value="getSchoolCalendar">
 			<input type="hidden" name="appcode" value="DEMOAPP">
 			<input type="hidden" name="company" value="10">
 			<input type="hidden" name="v" value="2">
-			<textarea name="token">587C1hOG7xIHks3Hpy3+FijBb4plHJ5lYG0E563YG4Q7HIEf2Ex+uKuzWYR2Ali32XzAcsc5AFSuK5QkRlO1My/y8E+1cEVT6UOhKeFwfAU=</textarea>
-			<input type="hidden" name="authtoken" value="1C5F8D31-C084-DC2D-7480FBEBA048F334">
+			<textarea name="token">/DcEGAVJXV/Z/F/xHGcsXxW9hwXwU5RiYW9N/KXIHhNPwb1h5eaXHemaew0tUGTUMBd6M7y/k86eOuCWpUl1oPc228A2dK8jtjcOff4Mg7k=</textarea>
+			<input type="hidden" name="authtoken" value="FABC7B09-CC98-41BA-6CECAE11621AE443">
 			<input type="hidden" name="authentity" value="parent">
 		</form>
 	```
