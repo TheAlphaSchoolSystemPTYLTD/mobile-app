@@ -1,6 +1,6 @@
 **getSchoolCalendar**
 ----
-Retrieve School Calendar feed based on specified student.
+Retrieve School Calendar feed based on authenticated parent with one or many students.
 
 * **Version:**
 
@@ -14,15 +14,21 @@ Retrieve School Calendar feed based on specified student.
 
 	 **Required:**
  
-	 `studcode [string]`
-
 	 `start_date [date dd/mm/yyyy]`
 
 	 **Optional:**
  
+	 `studcode [string]` - student code belonging to the autenticated parent
+
 	 `end_date [date dd/mm/yyyy]` - Defaults to `start_date` if not supplied
 
 	 `client_ip [string IP Address]` - May be required for attachments if proxying the initial request but not the file download
+
+	 `includeparent [bool]` - Defaults to true.  Includes parent calendar events and daily notices
+
+	 `includepublic [bool]` - Defaults to true.  Includes public calendar events and daily notices
+
+	 `includedescriptors [bool]` - Defaults to false.  Includes week descriptor events
 
 	 **Conditional:**
 

@@ -49,7 +49,7 @@ Return a fully qualified Deep Link URL based on the supplied Deep Link JSON pack
 * **Sample Parameters:**
 
 	```javascript
-    {"deep_link":"{\"target\":\"tour\",\"studcode\":\"0009130\",\"tour_num\":\"52\",\"prod_menu\":\"N\"}"}
+    {"deep_link":"{\"target\":\"tours.excursions\",\"studcode\":\"0009130\",\"tour_num\":\"52\",\"prod_menu\":\"N\"}"}
 	```
 
 * **Sample GET:** (With URL Encoded `token`)
