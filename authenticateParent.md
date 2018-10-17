@@ -28,7 +28,7 @@ Authenticate parent login, and generates Parent User object with valid Parent se
 
 * **Success Response:**
     
-    Split Family `Status_Code: 200`
+    Split Family (`sfa_num` 1 - 9) `Status_Code: 200`
     ```javascript
     {
 		"authtoken": "2B5EFD5C-E9F8-EF28-94FA66492E10A1C9",
