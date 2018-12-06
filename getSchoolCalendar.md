@@ -2,6 +2,10 @@
 ----
 Retrieve School Calendar feed based on authenticated parent with one or many students.
 
+* **Version History:**
+
+  TASS v50.0.000 - Added campus_code and year_groups to return. (If year_groups is empty object `{}` it is assumed the event belongs to all year groups.
+
 * **Version:**
 
 	2
@@ -46,6 +50,7 @@ Retrieve School Calendar feed based on authenticated parent with one or many stu
 				"file_name": "releasenotes_V47_4_025.pdf"
 			},
 			"cat_num": 11,
+			campus_code: "ARG",
 			"url_text": "http://www",
 			"day_time_desc": "Wed 25 Oct 2017 at 9:00am (End 3:00pm)",
 			"cat_desc": "Academic",
@@ -62,7 +67,15 @@ Retrieve School Calendar feed based on authenticated parent with one or many stu
 			"url_link": "http://www",
 			"week_descriptor": false,
 			"feed": "School Calendar",
-			"all_day": false
+			"all_day": false,
+			year_groups: {
+			    	0: "P",
+		    		1: 1,
+			    	2: 2,
+			    	3: 3,
+			    	4: 4,
+		    		-1: "PK"
+		  	}
 		}]
 	}
 	```
