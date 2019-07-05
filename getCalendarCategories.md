@@ -1,4 +1,4 @@
-**getCalendarEvents**
+**getCalendarCategories**
 ----
 Retrieve Calendar Event Categories as a structure.
 
