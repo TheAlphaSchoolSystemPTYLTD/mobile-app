@@ -2,7 +2,7 @@
 ----
 Authenticate parent login with SSO, and generates Parent User object with valid Parent session.
 
-* **Version:**
+* **Version History:**
 	
   TASS v52.8 - New endpoint added
 	
