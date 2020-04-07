@@ -21,6 +21,7 @@ This API supports third-party Mobile Apps and the following connections:
 **Methods**
 
   * authenticateParent
+  * authenticateParentSSO
   * getCalendarCategories
   * getDeepLinkURL
   * getNotifications
