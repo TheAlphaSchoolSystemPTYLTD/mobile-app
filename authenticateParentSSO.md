@@ -94,7 +94,7 @@ Authenticate parent login with SSO, and generates Parent User object with valid 
     `[sso_token]` do not match a valid user `Status_Code: 401`
     ```javascript
     __invalid: {
-      username: "Incorrect token."
+      sso_token: "Incorrect token."
     }
     ```
     
