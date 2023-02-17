@@ -51,6 +51,13 @@ Authenticate parent login with SSO, and generates Parent User object with valid 
 			"stud_name": "Cristine Angus"
 		}
 		],
+  		"addresses": [
+		{
+		    	"add_num": 4,
+		     	"email2": "",
+		      	"email1": "angus@nowhere.com"
+		}
+		],
 		"wasloggedin": "NO",
 		"authexpiry": "{ts '2017-11-15 16:57:27'}",
 		"par_code_sfa": "000055_1",
@@ -77,6 +84,18 @@ Authenticate parent login with SSO, and generates Parent User object with valid 
 		{
 			"stud_code": "0009081",
 			"stud_name": "Cristine Angus"
+		}
+		],
+  		"addresses": [
+		{
+		    	"add_num": 1,
+		     	"email2": "angus2@nowhere.com",
+		      	"email1": "angus1@nowhere.com"
+		},
+		{
+		    	"add_num": 2,
+		     	"email2": "cangus2@nowhere.com",
+		      	"email1": "chris_angus@nowhere.com"
 		}
 		],
 		"wasloggedin": "NO",
