@@ -147,6 +147,28 @@ Retrieve Student EDiary feed based on specified student.
 					"url_link": "",
 					"all_day": false,
 					"feed": "Curricular Activities"
+				},
+				{
+					"location": "",
+					"attachment": {
+						"deep_link": "",
+						"file_name": ""
+					},
+					"deep_link": "",
+					"url_text": "",
+					"day_time_desc": "",
+					"summary": "Cello Lessons - Clark, Andrea Gracie Joan",
+					"description": "Cello Lessons - Clark, Andrea Gracie Joan",
+					"has_attachment": false,
+					"single_day": true,
+					"source": "extracurricular",
+					"title": "Music Practice-Tuning the Instrument - Individual Session 2",
+					"start": "2020-01-27 15:00:00",
+					"end": "2020-01-27 15:30:00",
+					"id": "1D2F849F-D779-ADAC-84B5145702FFCD6F",
+					"url_link": "",
+					"all_day": false,
+					"feed": "ExtraCurricular"
 				}
 			],
 			"token": {
