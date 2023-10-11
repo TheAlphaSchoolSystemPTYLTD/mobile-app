@@ -47,6 +47,7 @@ Retrieve parent Notifications and Notification history.
     ]}
 	```
  
+
 * **Error Response:**
 
 		Required `[field_name]` not supplied. `Status_Code: 401`
